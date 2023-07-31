@@ -8,6 +8,7 @@ def divide(x, y):
     if y == 0:
         raise ValueError("Cannot divide by zero!")
     return x / y
+
 def calculator():
     print("Choose an operation:")
     print("1. Addition")
@@ -33,6 +34,5 @@ def calculator():
             print("Error:", e)
     else:
         print("Invalid operation choice")
-
 if __name__ == "__main__":
     calculator()
